@@ -5,9 +5,12 @@ function App() {
   const [count, setCount] = useState(0);
   const handleOnIncrement = () => {
     setCount((prevCounter) => prevCounter + 1);
-    setCount((prevCounter) => prevCounter + 1);
-    setCount((prevCounter) => prevCounter + 1);
-    setCount((prevCounter) => prevCounter + 1);
+    // setCount((prevCounter) => prevCounter + 1);
+    // setCount(count + 1);
+    // setCount((prevCounter) => prevCounter + 5);
+
+    // setCount((prevCounter) => prevCounter + 1);
+    // setCount((prevCounter) => prevCounter + 1);
 
     // setCount(count + 1);
     // setCount(count + 1);
