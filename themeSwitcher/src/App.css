@@ -1,0 +1,55 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light theme */
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark theme */
+body.dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Card styles */
+.card {
+  background-color: #f9f9f9;
+  color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark .card {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Theme toggle button */
+button {
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+body.light button {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body.dark button {
+  background-color: #ffffff;
+  color: #000000;
+}
