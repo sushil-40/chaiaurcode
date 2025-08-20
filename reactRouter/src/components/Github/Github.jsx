@@ -16,6 +16,7 @@ const Github = () => {
     <div className="'text-center m-4 bg-gray-600 text-white">
       {" "}
       Github Follower: {data.followers}
+      Github Follower: {data.following}
       <img src={data.avatar_url} alt="Git picture" width={300} />
     </div>
   );
