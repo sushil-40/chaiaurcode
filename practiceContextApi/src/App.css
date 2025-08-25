@@ -1,0 +1,34 @@
+.dashboard {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftChild {
+  min-width: 200px;
+  background-color: rgb(80, 52, 179);
+  min-height: 80vh;
+}
+.rightChild {
+  min-width: 400px;
+  background-color: rgb(166, 179, 52);
+  min-height: 80vh;
+}
+
+.rightChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.topChild {
+  min-height: 250px;
+  width: 300px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+.bottomChild {
+  min-height: 200px;
+  width: 300px;
+  background-color: rgb(172, 7, 150);
+}
