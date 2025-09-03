@@ -9,6 +9,9 @@ import RTE from "./RTE";
 import Input from "./Input";
 import Button from "./Button";
 import PostForm from "./post-form/PostForm";
+import Signup from "../pages/Signup";
+import Login from "../pages/Login";
+import PostCard from "./PostCard";
 export {
   Header,
   Footer,
@@ -21,4 +24,7 @@ export {
   Input,
   Button,
   PostForm,
+  Signup,
+  Login,
+  PostCard,
 };
